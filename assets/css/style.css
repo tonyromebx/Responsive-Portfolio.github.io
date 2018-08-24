@@ -179,6 +179,83 @@ hr {
     padding: 12px 0px;
 }
 
+/*=====media 980=====*/
+
+@media (max-width: 980px) {
+	.container{
+		width:816px;
+	}
+
+	.middle-content {
+		width: 768px;
+	}
+
+	.left-side {
+		width:200px;
+	}
+
+	.right-side {
+		width: 542px;
+	}
+
+}
+
+/*=====media 768=====*/
+
+@media (max-width: 768px) {
+	.container{
+		width:680px;
+	}
+
+	.middle-content {
+		width: 640px;
+	}
+
+	.left-side {
+		width:200px;
+	}
+
+	.right-side {
+		width: 410px;
+	}
+
+}
+
+/*=====media 640=====*/
+
+@media (max-width: 640px) {
+	.header-module {
+		position: static;
+	}
+
+	.menu {
+		float:left;
+		width:100%;
+		margin: 0 auto;
+		background-color: #fff;
+	}
+
+	.logo {
+		width:100%;
+	}
+
+	.container{
+		width:680px;
+	}
+
+	.middle-content {
+		width: 640px;
+	}
+
+	.left-side {
+		width:200px;
+	}
+
+	.right-side {
+		width: 410px;
+	}
+
+}
 
 
 
