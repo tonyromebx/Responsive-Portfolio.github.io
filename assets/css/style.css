@@ -135,7 +135,7 @@ hr {
 }
 
 .left-side-contact textarea {
-	width:346px;
+	width:500px;
 	height:300px;
 }
 
@@ -183,6 +183,57 @@ hr {
 		display:none;
 	}
 
+
+input, textarea {
+	width:500px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:500px;
+	background-color: #efefef;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    background-color: #4aaaa5;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    color:#fff;
+	}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+
+.animate {
+  display: inline-block;
+  transition: transform 1s ease-out;
+}
+  
+.animate:hover {
+  transform: scale(0.5);
+  cursor:pointer;
+}
+
+
+
+
+
 /*=====media 980=====*/
 
 @media (max-width: 980px) {
@@ -218,6 +269,10 @@ hr {
 
 	.text-block {
 		width:244px;
+	}
+
+	input, .left-side-contact, .left-side-contact textarea {
+		width:98%;
 	}
 
 }
